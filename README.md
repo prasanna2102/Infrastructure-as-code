@@ -44,17 +44,26 @@ If u are devops enginner write some terraform scripts and terraform eill take ca
 suppose my provider is aws.agian here same thing should like migrating terraform scripts to automate on aws.this migrating tye scripts in terraform will be in a smooth way like changing the modules,update the provider details etc.
 
 like u can write terraform scripts by following the terrafprm documentation u can easily automate the resoures on any cloud provider.This concept is called API as code.APT as code is a concept using which it automate any provider.
+
 Here what  internally terraform does is talk to the API of azure,aws etc.U don't have to write any coding once u write the terraform scripts, terraform wil convert them depending upon provider details of the provider.once u write the terraform modules, terraform will convert the script into the aws readable area and executes the acion.
 
+
 #API-application program interface
+
  suppose u want to talk to google, then what u will do u go to the browser and type www. ggogle.com this is like an user interface user can manually do that.Instead of that u need to automate the action then u write some scripts, then this scripts  will talk to google and result wwill be given.
+ 
  Then developers come up with a concept called API.
+ 
  Using API u can programmatically talk to the applications like github,google etc.
  for example github will expose a API ,github will tell u that instead of manually log into me u can authenticate. U can open terminal, u can use a curl or http request and talk to my API and get what ever u want i will send u the information.
+ 
  Terraform uses the same concept.
+ 
  Aws have their AP's and azure have their API's. So, by directly talking to the Api's  u need a programing language. Instead of that what developers done is we actively look at this ApI's and  terraform have written their own modules.
+ 
  Let's say u want ec2 instances on aws,terraform said that instead of making API call with aws u can write some terraform file.In this file there is a module called EC2.using this EC2
  write bunch of lines just like u write in english and once user submits this request in terraform file.Then what this terraform recieves ur request and take ur input and convert ur input into API call.This is all done in backend.
+ 
  This is what terraform called and uses the concept of API as code.
  
 
