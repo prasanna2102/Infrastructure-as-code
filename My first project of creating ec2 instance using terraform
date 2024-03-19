@@ -1,0 +1,26 @@
+
+Install terraform 
+
+   https://developer.hashicorp.com/terraform/install
+
+Install aws cli
+
+1.aws configure
+
+2.enter access key and secret key
+
+set the path in environment variables
+
+create a main.tf file in the terraform path
+
+Now open the cmd with the destination path
+
+## Follow the commands to run the terraform script on cmd
+
+1. terraform init
+
+2.terraform plan
+
+3.terraform apply
+
+By following these commands it will run the script then the ec2 instance will be created in the aws console.
