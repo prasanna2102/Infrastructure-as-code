@@ -1,0 +1,6 @@
+provider:It is a plugin in which it helps the terraform to create the infrastructure.
+variables
+  1.   Input variable
+  2.   output variable
+Modules
+state variables
